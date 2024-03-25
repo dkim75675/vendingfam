@@ -1,0 +1,33 @@
+.page__title {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.emailForm{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #eee;
+    padding: 25px;
+    border-radius: 7px;
+}
+
+input,
+textarea {
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    resize: vertical;
+    outline: none;
+    box-sizing: content-box;
+    border-bottom: solid 3px transparent;
+    margin: 5px 0;
+}
+
+.button{
+    background-color: blue;
+
+}
